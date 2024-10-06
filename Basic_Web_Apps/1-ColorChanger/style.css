@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+html{
+    margin: 0;
+}
+
+
+span{
+    display: block;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#indigo{
+    background: indigo;
+}
+#skyblue{
+    background: skyblue;
+}
+#green{
+    background: green;
+}
+#greenyellow{
+    background: greenyellow;
+}
+#red{
+    background: red;
+}
+#yellow{
+    background: yellow;
+}
+#violet{
+    background: violet;
+}
+#grey{
+    background: grey;
+}
