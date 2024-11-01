@@ -22,12 +22,15 @@ form.addEventListener('submit', function (e) {
 
         if (bmi < 18.6) {
             results.innerHTML = `<strong><span>${bmi} Under Weight</span></strong>`;
+            results.style.color = "Yellow";
             
-        } else if (bmi > 18.6 || bmi < 24.9) {
+        } else if (bmi > 18.6 && bmi < 24.9) {
             results.innerHTML = `<strong><span>${bmi} Normal Range</span></strong>`;
+            results.style.color = "Green";
             
-        } else {
+        } else if (bmi >= 24.9) {
             results.innerHTML = `<strong><span>${bmi} Overweight</span></strong>`;
+            results.style.color = "Red";
             
         }
 
