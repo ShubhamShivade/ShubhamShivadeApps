@@ -60,3 +60,26 @@ h1 {
   border: 2px solid #212121;
   margin-top: 5px;
 }
+
+.menu {
+  display: flex;
+  /* width: 60%; */
+  align-items: center;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  /* padding: 5px; */
+  margin-left: 20px;
+  color: #494948;
+  transition: all 0.2s ease;
+}
+
+.menu a:hover {
+  color: #fca738;
+  transform: scale(1.1);
+}
